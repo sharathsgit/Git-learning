@@ -1,0 +1,57 @@
+<!-- example on  select  tag -->
+<!DOCTYPE html>
+<html lang="en">   
+  <head>
+    <title>Ex47</title>
+    <link rel="icon" href="logo1.png"> 
+  </head>
+  <body>
+	<h2>Demo On ListBox control</h2>
+	<form id="f" action="reg.apsx">
+		<h3>Enrollment Form</h3>
+	    <label>Student Name</label> <br>
+		<input type="text" id="sna" name="stuname"> <br>
+
+	    <label>Email</label> <br>
+		<input type="email" id="eid" name="email"> <br>
+
+		<label>Mode of Training</label> <br>
+		<select id="mot" name="mot" size="3">
+			<option value="OT">Online Training</option>
+			<option value="CT">Classroom Training</option>
+			<option value="WT">Weekend Training</option>
+			<option value="PT">Project Training</option>
+			<option value="O2O">One-2-One Training</option>
+			<option value="IN">Internship</option>
+		</select> <br>
+ 
+		<label>Course</label> <br>
+		<select id="cr" name="course" size="8" multiple>
+			<option>C</option>
+			<option>Cpp</option>
+			<option>CoreJava</option>
+			<option>AdvJava</option>
+			<option>Spring</option>
+			<option>XML/WebServices</option>
+			<option>ASP.net</option>
+			<option>C#.net</option>
+			<option selected>HTML/JavaScript</option>
+			<option>Angular	</option>
+			<option>Node.JS</option>
+			<option>React.JS</option>
+			<option>Hadoop</option>
+			<option>Python</option>
+			<option>Oracle</option>
+			<option>MongoDB</option>
+			<option>SQL-Server</option>
+		</select> <br>
+
+		<button name="sb" value="Enroll">Enroll</button>
+	</form>	 
+  </body>  
+</html>				
+					
+<!--
+file:///D:/html6/reg.apsx?stuname=siva&email=siva%40gmail.com&mot=CT&course=HTML%2FJavaScript&course=Angular&course=React.JS&sb=Enroll
+-->		 
+ 
